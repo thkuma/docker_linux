@@ -29,7 +29,5 @@ sudo docker rm aula_devops
 
 https://gist.github.com/insin/1425703/f22c4231a7b28b8f420d79158b5229e5ebd3fcd9
 
-sudo docker run --name aula_devops -v ~/impacta:/impacta -it ubuntu:bionic
-sudo docker run --name aula_devops -v ~/impacta:/impacta bash -c "echo \"export PS1='[${image}] \w$ '\" >> ~/.bashrc && bash" -it ubuntu:bionic
-
+sudo docker run --name aula_devops -v ~/impacta:/impacta -it ubuntu:bionic bash
 
