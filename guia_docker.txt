@@ -9,25 +9,18 @@ c) Teste
 docker run hello-world
 
 
-
 1) Criar um container
 pwd (anotar <caminho>)
-docker run -v <caminho>:/impacta --name aula_devops -it ubuntu:bionic /bin/bash
+docker run -v <caminho>:/impacta --name aula_devops -it python:3.6 bash
 
 2) Rodar um container
 docker start -ai aula_devops
 
-4) Instalar o git - Dentro do Container
+4) Instalar pacotes - Dentro do Container
 apt get update
-apt get install git
+apt get -y install git ne
 
-5) Configurar o git - Dentro do Container
-
-6) Apagar um container
+5) Apagar um container
 sudo docker rm aula_devops
 
-
-https://gist.github.com/insin/1425703/f22c4231a7b28b8f420d79158b5229e5ebd3fcd9
-
-sudo docker run --name aula_devops -v ~/impacta:/impacta -it ubuntu:bionic bash
-
+sudo docker run --name aula_devops -v ~/impacta:/impacta -it python:3.6 bash
