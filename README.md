@@ -1,4 +1,4 @@
-# Este projeto foi feito para usários Windows possam experimentar o linux.  
+# Este projeto foi feito para que usuários Windows possam experimentar o Linux.  
 A ideia é aprender:  
 - Utilizar o shell  
 - Aprender git  
