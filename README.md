@@ -5,7 +5,7 @@ A ideia é aprender:
 - Versionamento de ambiente Virtualenv  
 - Próprio docker  
 
-# PARTE 1  
+# PARTE 1 - Instalando o Docker  
   
 a) Donwload Docker  
 https://hub.docker.com/editions/community/docker-ce-desktop-windows/  
@@ -24,7 +24,7 @@ Quem está com o Window diferente do Windows 10 Pro tem uma solução que na pr�
 Segue o WLS2 abaixo  
 https://docs.microsoft.com/pt-br/windows/wsl/wsl2-kernel  
   
-# PARTE 2  
+# PARTE 2 - Utilizando um container Linux/Python  
 1) Criar um container  
 pwd (anotar [caminho])  
 docker run -v [caminho]:/impacta --name aula_devops -it python:3.6 bash  
@@ -41,4 +41,8 @@ apt -y install git ne
   
 5) Apagar um container  
 docker rm aula_devops  
-
+  
+# PARTE 3 - Configurando o shell  
+1) Dentro do container clonar esse projeto  
+  
+2) Rodar o script 
