@@ -26,11 +26,11 @@ https://docs.microsoft.com/pt-br/windows/wsl/wsl2-kernel
   
 # PARTE 2  
 1) Criar um container  
-pwd (anotar <caminho>)  
-docker run -v <caminho>:/impacta --name aula_devops -it python:3.6 bash  
+pwd (anotar [caminho])  
+docker run -v [caminho]:/impacta --name aula_devops -it python:3.6 bash  
 
 Caso você tenha o problema: "the input device is not a TTY.  If you are using mintty, try prefixing the command with 'winpty'"   
-winpty docker run -v <caminho>:/impacta --name aula_devops -it python:3.6 bash  
+winpty docker run -v [caminho]:/impacta --name aula_devops -it python:3.6 bash  
   
 2) Rodar um container  
 docker start -ai aula_devops  
