@@ -45,4 +45,6 @@ docker rm aula_devops
 # PARTE 3 - Configurando o shell  
 1) Dentro do container clonar esse projeto  
   
-2) Rodar o script 
+2) Rodar o script prompt_setup.sh  
+  - Lembrando que caso crie o container essa configuração deve ser refeita  
+  
